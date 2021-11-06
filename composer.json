@@ -1,0 +1,34 @@
+{
+    "name": "jhamat/slider",
+    "type": "laravel-module",
+    "description": "",
+    "require": {
+        "nwidart/laravel-modules": "^7.1",
+        "joshbrw/laravel-module-installer": "^1.0"
+    },
+    "repositories": [
+        {
+            "type": "composer", 
+            "url": "https://hamza-dev.repo.repman.io"
+        }
+    ],
+    "authors": [
+        {
+            "name": "Shahbaz",
+            "email": "softlinkage@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Slider\\": ""
+        }
+    }
+}
